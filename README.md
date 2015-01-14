@@ -11,10 +11,10 @@ Usage
 
 To build the client, just type make.
 
-   $ make
-   $ erl -pa ebin/
+`$ make
+$ erl -pa ebin/`
 
-   > fs_client_test:all().
+`> fs_client_test:all().`
 
 Examples
 --------
