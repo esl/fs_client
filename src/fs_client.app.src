@@ -1,0 +1,13 @@
+{application, fs_client, [
+	{description, "Erlang TCP client for communicating with Julia servers."},
+	{vsn, "0.1.0"},
+	{id, "git"},
+	{modules, []},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib
+	]},
+	{mod, {fs_client_app, []}},
+	{env, [{server_portno, 2004}]}
+]}.
